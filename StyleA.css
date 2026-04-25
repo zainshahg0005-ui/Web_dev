@@ -1,0 +1,26 @@
+*{    /*sara html pa implement ho raha hai good practice */
+    padding: 0; /*andar gab dana*/
+    margin: 0; /*2 html tag ka between tag dana*/
+}
+
+.cube{
+    display:grid;  /*show  horizentally*/
+    justify-content: center; /* bring in center*/
+    gap: 10px; /*gaping between each 10px*/
+    }
+
+.box{
+
+  height: 100px; /*lambai*/
+  width: 100px; /*chorai*/
+  border-top: 1px solid black; 
+  background-color:  #dfe1e7; /*background color with hexdecimal value*/
+  text-align: center; /*bringing text in canter*/
+  font-family: tahoma ; /*font ki type*/ 
+  font-size: 40px;  /*font ka size*/
+}
+
+.box:nth-child(6){   /*6th div ko call kia for changes*/
+  border: 4px solid black; 
+  background-color:  #687291;
+}

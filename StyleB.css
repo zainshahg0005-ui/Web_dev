@@ -1,0 +1,32 @@
+*{                      /*Note Jo idar comment nahi kia hai who 1st sheet main kia hai thanks*/
+                       /*alread explained*/
+    padding: 0;     
+    margin: 0;
+}
+
+.cube{    /*class ka name cube*/
+    display:flex; /* type of display propertty*/
+    flex-wrap: nowrap;  /*minime karna pa wrap nahi hoga*/
+    gap: 10px;
+
+}
+.box:hover {  /*jab curser kis element pa laye ga*/
+  background: yellow;
+  cursor: pointer;
+}
+.box:nth-child(6) {
+  position: fixed; /*position fix raha gi can use absolute as well*/
+  bottom: 0px;   /*nicha sa 0 % move kro */
+  right: 0px;   /*right sa 0 % move kro*/
+ 
+}
+.box{
+    background-color: #eeeff2;
+    font-family: tahoma ;  
+    font-size: 40px ;
+    border-left:10px dotted  #D0D0FF  ;
+    height: 150px;
+    width:100px;
+    padding: 10px; /*Element ka andar sa gap*/
+
+}

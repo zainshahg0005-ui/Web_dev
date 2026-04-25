@@ -22,4 +22,4 @@ This project demonstrates the use of HTML and CSS by implementing three differen
 3. To switch styles, change the stylesheet link inside the `<head>` section:
 
 ```html
-<link rel="stylesheet" href="StyleA.css">    -----B------ or -----c-----
+<link rel="stylesheet" href="StyleA.css"> 
